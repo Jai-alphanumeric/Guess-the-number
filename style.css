@@ -42,15 +42,6 @@ main {
   flex-wrap: wrap;
 }
 
-.again:hover {
-  box-shadow: 0 0 100px 5px #fff;
-  animation-duration: 0.25s;
-  transition: ease-in-out;
-  align-items: baseline;
-  animation: aurora 5s ease-in-out infinite;
-  text-shadow: 0 0 10px #011926;
-}
-
 .between {
   margin-right: 10px;
 }
@@ -223,11 +214,6 @@ section {
     align-items: center;
   }
 
-  .again:hover {
-    box-shadow: none;
-
-  }
-
   main {
     flex-direction: column;
     justify-content: center;
@@ -266,10 +252,6 @@ section {
   .left {
     justify-content: center;
     align-items: center;
-  }
-
-  .again:hover {
-    box-shadow: none;
   }
 
   main {
