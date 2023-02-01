@@ -5,26 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess The no.</title>
+    <title>Guess The Number</title>
   </head>
   <body>
     <header>
-        <h1>Guess My Number!</h1>
-        <p class="between">(Between 1 and 20)</p>
+      <div class="upp">
         <button class="btn again">Again</button>
-        <div class="number">?</div>
+        <p class="between">(Between 1 and 20)</p>
+      </div>
+      <h1>Guess My Number!</h1>
+      <div class="number">?</div>
     </header>
+    <div class="waste"></div>
     <main>
-        <section class="left">
-            <input type="number" class="guess" id="io">
-            <button class="btn check">Check!</button>
-        </section>
-        <section class="right">
-            <p class="message">Start Guessing...</p>
-            <p class="label-score"> Score: <span class="score">20</span></p>
-            <p class="label-highscore">Highscore: <span class="highscore">0</span></p>
-        </section>
+      <section class="left">
+        <input type="number" class="guess" id="io" />
+        <div class="another-button">
+          <button class="btn check">Check!</button>
+        </div>
+      </section>
+      <section class="right">
+        <p class="message">Start Guessing...</p>
+        <p class="label-score">Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
     </main>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="script.js"></script>
 </html>
