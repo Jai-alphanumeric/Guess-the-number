@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -35,4 +35,348 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="script.js"></script>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background: #151515;
+        font-family: "Trebuchet MS", "Poppins", sans-serif;
+        transition: all;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        color: #fff;
+      }
+
+      .Card-parent {
+        width: 50%;
+        /* min-width: 411px; */
+      }
+
+      .Card {
+        /* min-width: 411px; */
+        margin: auto;
+        border-radius: 20px;
+        color: #fff;
+        background: linear-gradient(45deg, #897aff, #3ce6b0);
+        margin: 20px;
+      }
+
+      .Card-image {
+        /* min-width: 411px; */
+        width: 100%;
+        margin: auto;
+      }
+
+      .Card-image img {
+        /* min-width: 411px; */
+        width: 100%;
+        border-radius: 20px;
+        /* filter: saturate(0%); */
+      }
+
+      .Card-Name {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .ex_name {
+        width: 75%;
+        contain: content;
+      }
+
+      .no_of_set {
+        min-width: 20%;
+      }
+
+      .Desc {
+        padding: 5px 20px;
+      }
+
+      .Desc p {
+        text-align: end;
+      }
+
+      @media (min-width: 1000px) {
+        .Card-parent {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .Card {
+          width: 50%;
+          min-width: 400px;
+        }
+      }
+      @media (min-width: 400px) and (max-width: 600px) {
+        .Card-parent {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+        }
+
+        .Card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chest</h1>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="
+                https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif
+              "
+            />
+            <img
+              src="https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Flat Dumbbell Press</h3>
+              <h3 class="no_of_set">4 × 15</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Use at least 5kg Dumbbell each hand. And make sure the dumbbell is in the line of chest
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="
+                https://i.pinimg.com/originals/1c/ae/3b/1cae3b2892dddfc0f14a6c540c0d2db5.gif
+              "
+            />
+            <img
+              src="https://i.pinimg.com/originals/1c/ae/3b/1cae3b2892dddfc0f14a6c540c0d2db5.gif"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Inclined Dumbbell Press</h3>
+              <h3 class="no_of_set">4 × 15</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Use at least 5kg Dumbbell each hand. And make sure the dumbbell is in the line of chest
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="
+                https://workouts4fitness.files.wordpress.com/2017/05/pec-deck-machine1.gif
+              "
+            />
+            <img
+              src="https://cdn.dribbble.com/users/398490/screenshots/2039177/media/932553d50640a7c44bde0b43abee456a.gif"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Pec Flys (Butterfly)</h3>
+              <h3 class="no_of_set">4 × 15</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Use atleast 5kg Dumbbell
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="
+                https://cdn.dribbble.com/users/4678719/screenshots/14534270/media/5c5ba4523e64cb0403719c1082b88062.gif
+              "
+            />
+            <img
+              src="https://cdn.dribbble.com/users/4678719/screenshots/14534270/media/5c5ba4523e64cb0403719c1082b88062.gif"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Push Ups</h3>
+              <h3 class="no_of_set">4 × 10</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Do Knees push ups if you're not able to do simple pushups
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Triceps</h1>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="
+                https://www.inspireusafoundation.org/wp-content/uploads/2022/11/cable-pushdown.gif
+              "
+            />
+            <img
+              src="https://www.inspireusafoundation.org/wp-content/uploads/2022/11/cable-pushdown.gif"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Triceps Cable Pushdown</h3>
+              <h3 class="no_of_set">4 × 15</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Cable height should be at least one point higher than your height and the elbow angle should not be less than 90deg.
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="https://i.makeagif.com/media/5-01-2015/79UxIh.gif"
+            />
+            <img
+              src="https://i.makeagif.com/media/5-01-2015/79UxIh.gif"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Single Arm Tricep extension</h3>
+              <h3 class="no_of_set">4 × 15</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Use atleast 2.5 kg Dumbbell
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="
+                https://i.pinimg.com/originals/d6/a5/1e/d6a51efe5f0b74ad085b4c43b9979596.gif
+              "
+            />
+            <img
+              src="https://i.pinimg.com/originals/d6/a5/1e/d6a51efe5f0b74ad085b4c43b9979596.gif"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Double Arm Tricep Extension</h3>
+              <h3 class="no_of_set">4 × 15</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Use atleast 5kg Dumbbell
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Card-parent">
+      <div class="Card">
+        <div class="Card-image">
+          <picture>
+            <source
+              srcset="
+                https://qph.cf2.quoracdn.net/main-qimg-518d81ea5432a50dec240bb6b53a12e2
+              "
+            />
+            <img
+              src="https://qph.cf2.quoracdn.net/main-qimg-518d81ea5432a50dec240bb6b53a12e2"
+              alt="Chest Press"
+              key="Chest"
+            />
+          </picture>
+          <div class="Desc">
+            <div class="Card-Name">
+              <h3 class="ex_name">Tricep Bench Dips</h3>
+              <h3 class="no_of_set">4 × 10</h3>
+            </div>
+            <hr />
+            <p>
+              <i>
+                Use any flat bench
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
